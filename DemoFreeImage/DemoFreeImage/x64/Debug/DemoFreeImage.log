@@ -1,0 +1,5 @@
+﻿main.obj : error LNK2019: symbole externe non résolu __imp_FreeImage_Allocate référencé dans la fonction main
+main.obj : error LNK2019: symbole externe non résolu __imp_FreeImage_Save référencé dans la fonction main
+main.obj : error LNK2019: symbole externe non résolu __imp_FreeImage_SetPixelColor référencé dans la fonction main
+..\FreeImage\FreeImage.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\Users\berjaud\Downloads\DemoFreeImage\x64\Debug\DemoFreeImage.exe : fatal error LNK1120: 3 externes non résolus

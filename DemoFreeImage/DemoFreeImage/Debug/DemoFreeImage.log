@@ -1,0 +1,12 @@
+﻿  Camera.cpp
+  Intersection.cpp
+  main.cpp
+C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\main.cpp(14,19): warning C4267:  '=' : conversion de 'size_t' en 'BYTE', perte possible de données
+  MathVecteur.cpp
+C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\main.cpp(18,21): warning C4267:  '=' : conversion de 'size_t' en 'BYTE', perte possible de données
+  Primitive.cpp
+  Rayon.cpp
+  Scene.cpp
+  Génération de code en cours...
+C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\MathVecteur.cpp(16,13): warning C4244:  'return' : conversion de 'double' en 'float', perte possible de données
+  DemoFreeImage.vcxproj -> C:\Users\berjaud\Downloads\DemoFreeImage\bin\DemoFreeImage_d.exe
