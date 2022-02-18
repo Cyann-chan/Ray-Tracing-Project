@@ -40,4 +40,9 @@ MathVecteur::Vecteur MathVecteur::normalizeVecteur(Vecteur v)
 	return vecteur;
 }
 
+MathVecteur::Vecteur MathVecteur::directionFromPositions(Vecteur position1, Vecteur position2)
+{
+	return createVecteur(position1.x-position2.x, position1.y-position2.y, position1.z-position2.z);
+}
+
 

@@ -4,13 +4,13 @@
 #include "Camera.h"
 class Scene
 {
-	std::vector<Primitive>* objects;
-	Camera* camera;
+public:
+	std::vector<Primitive> objects;
+	Camera camera;
 
-	Scene()
-	{
-		camera = new Camera();
-		objects = new std::vector<Primitive>();
-	}
+	Scene();
+	Scene(Camera c);
+
+	void addObject(Primitive obj);
 };
 

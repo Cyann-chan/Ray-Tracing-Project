@@ -1,12 +1,22 @@
 ﻿  Camera.cpp
-  Intersection.cpp
-  main.cpp
-C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\main.cpp(14,19): warning C4267:  '=' : conversion de 'size_t' en 'BYTE', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Camera.cpp(10,21): warning C4244:  '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Camera.cpp(20,21): warning C4244:  '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Camera.cpp(25,91): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
   MathVecteur.cpp
-C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\main.cpp(18,21): warning C4267:  '=' : conversion de 'size_t' en 'BYTE', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Camera.cpp(25,73): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
   Primitive.cpp
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\MathVecteur.cpp(16,13): warning C4244:  'return' : conversion de 'double' en 'float', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Primitive.cpp(7,11): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Primitive.cpp(12,11): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
   Rayon.cpp
   Scene.cpp
+  main.cpp
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\Primitive.cpp(14,21): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
   Génération de code en cours...
-C:\Users\berjaud\Downloads\DemoFreeImage\DemoFreeImage\MathVecteur.cpp(16,13): warning C4244:  'return' : conversion de 'double' en 'float', perte possible de données
-  DemoFreeImage.vcxproj -> C:\Users\berjaud\Downloads\DemoFreeImage\bin\DemoFreeImage_d.exe
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\DemoFreeImage\main.cpp(27,22): warning C4018:  '<' : incompatibilité signed/unsigned
+Primitive.obj : error LNK2005: "public: __thiscall Sphere::Sphere(float,struct MathVecteur::Vecteur)" (??0Sphere@@QAE@MUVecteur@MathVecteur@@@Z) déjà défini(e) dans main.obj
+Primitive.obj : error LNK2005: "public: virtual bool __thiscall Sphere::isIntersection(class Rayon)" (?isIntersection@Sphere@@UAE_NVRayon@@@Z) déjà défini(e) dans main.obj
+main.obj : error LNK2019: symbole externe non résolu "public: virtual bool __thiscall Primitive::isIntersection(class Rayon)" (?isIntersection@Primitive@@UAE_NVRayon@@@Z) référencé dans la fonction _main
+Primitive.obj : error LNK2001: symbole externe non résolu "public: virtual bool __thiscall Primitive::isIntersection(class Rayon)" (?isIntersection@Primitive@@UAE_NVRayon@@@Z)
+Scene.obj : error LNK2001: symbole externe non résolu "public: virtual bool __thiscall Primitive::isIntersection(class Rayon)" (?isIntersection@Primitive@@UAE_NVRayon@@@Z)
+C:\Users\berjaud\Documents\GitHub\DemoFreeImage\bin\DemoFreeImage_d.exe : fatal error LNK1120: 1 externes non résolus

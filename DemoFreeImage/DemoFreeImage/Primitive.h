@@ -1,14 +1,19 @@
 #pragma once
 #include "MathVecteur.h"
+#include "Rayon.h"
 class Primitive
 {
-
-	typedef struct Sphere
-	{
-		float rayon;
-		MathVecteur::Vecteur centre;
-	} Sphere;
-
-	Sphere createSphere(float rayon, MathVecteur::Vecteur centre);
+public:
+	virtual bool isIntersection(Rayon r);
 };
 
+class Sphere: public Primitive
+{
+public:
+	float rayon;
+	MathVecteur::Vecteur centre;
+	
+	bool isIntersection(Rayon r);
+
+	Sphere(float r, MathVecteur::Vecteur v);
+};
